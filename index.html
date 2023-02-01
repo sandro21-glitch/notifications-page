@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- global container -->
+    <div class="min-h-screen bg-VeryLightGrayishBlue p-10 font-jakarta relative">
+        <!-- main content -->
+        <div class="w-full max-w-[50rem] bg-white mx-auto p-4 rounded-md">
+            <header class="flex items-center w-full justify-between mb-5">
+              <h1 class="text-lg text-VeryDarkBlue font-semibold notif-text">
+                  Notifications
+                 <span class="px-3 ml-1 rounded-md bg-BlueEx text-white">3</span>
+                </h1>
+                <p class="text-md text-GrayishBlue font-normal cursor-pointer hover:text-BlueEx transition-all ease-in mark-all">Mark all as read</p>
+            </header>
+            <!-- column item -->
+            <div class="flex items-start bg-VeryLightGrayishBlue px-4 py-4 mb-3 rounded-sm content">
+              <img src="./assets/images/avatar-mark-webber.webp" alt="avatar" class="w-10" />
+              <div class="flex flex-col ml-2">
+                <h6 class="text-sm font-bold hover:text-BlueEx transition-all ease-in cursor-pointer">Mark Webber 
+                <span class="text-GrayishBlue text-sm font-normal ml-1">reacted to your recent post</span>
+                <span class="text-DarkGrayishBlue text-sm font-semibold">My first tournament today!</span>
+                <span class="inline-block w-[.1] h-[.1] p-1 ml-1 rounded-full bg-RedEx circle"></span>
+              </h6>
+                <p class="text-md text-GrayishBlue font-normal">1m ago</p>
+              </div>
+            </div>
+            <!-- column item -->
+            <div class="flex items-start bg-VeryLightGrayishBlue px-4 py-4 mb-3 rounded-sm content">
+              <img src="./assets/images/avatar-angela-gray.webp" alt="avatar" class="w-10" />
+              <div class="flex flex-col ml-2">
+                <h6 class="text-sm font-bold hover:text-BlueEx transition-all ease-in cursor-pointer">Angela Gray
+                <span class="text-GrayishBlue text-sm font-normal ml-1">followed you</span>
+                <span class="inline-block w-[.1] h-[.1] p-1 ml-1 rounded-full bg-RedEx circle"></span>
+              </h6>
+                <p class="text-md text-GrayishBlue font-normal">5m ago</p>
+              </div>
+            </div>
+            <!-- column item -->
+            <div class="flex items-start bg-VeryLightGrayishBlue px-4 py-4 mb-3 rounded-sm content">
+              <img src="./assets/images/avatar-jacob-thompson.webp" alt="avatar" class="w-10" />
+              <div class="flex flex-col ml-2">
+                <h6 class="text-sm font-bold hover:text-BlueEx transition-all ease-in cursor-pointer">Jacob Thompson
+                <span class="text-GrayishBlue text-sm font-normal ml-1">has joined your group</span>
+                <span class="text-BlueEx text-sm font-bold ml-1 cursor-pointer">Chess Club</span>
+                <span class="inline-block w-[.1] h-[.1] p-1 ml-1 rounded-full bg-RedEx circle"></span>
+              </h6>
+                <p class="text-md text-GrayishBlue font-normal">1 day ago</p>
+              </div>
+            </div>
+            <!-- column item -->
+            <div class="flex items-start  px-4 py-4 mb-3 rounded-sm content">
+              <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="avatar" class="w-10" />
+              <div class="flex flex-col ml-2">
+                <h6 class="text-sm font-bold hover:text-BlueEx transition-all ease-in cursor-pointer">Rizky Hasanuddin
+                <span class="text-GrayishBlue text-sm font-normal ml-1">sent you a private message</span>
+                <!-- <span class="inline-block w-[.1] h-[.1] p-1 ml-1 rounded-full bg-RedEx circle"></span> -->
+              </h6>
+                <p class="text-md text-GrayishBlue font-normal mb-2">5 days ago</p>
+                <div class="w-full border border-LightGrayishBlue2 rounded p-3 hover:bg-LightGrayishBlue2 transition-all ease-in">
+                  <p class="text-sm text-GrayishBlue hover:text-DarkGrayishBlue font-normal transition-all ease-in">
+                    Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+                    I'm already having lots of fun and improving my game.</p>
+                </div>
+              </div>
+            </div>
+            <!-- column item -->
+            <div class="flex items-start md:justify-between px-4 py-4 mb-3 rounded-sm content">
+              <div class="flex items-start">
+                <img src="./assets/images/avatar-kimberly-smith.webp" alt="avatar" class="w-10" />
+                <div class="flex flex-col ml-2">
+                  <h6 class="text-sm font-bold hover:text-BlueEx transition-all ease-in cursor-pointer">Kimberly Smith
+                    <span class="text-GrayishBlue text-sm font-normal ml-1">commented on your picture</span>
+                    <!-- <span class="inline-block w-[.1] h-[.1] p-1 ml-1 rounded-full bg-RedEx circle"></span> -->
+                  </h6>
+                  <p class="text-md text-GrayishBlue font-normal">1 week ago</p>
+                </div>
+                <!-- right -->
+              </div>
+              <div class="md-right">
+                <img src="./assets/images/image-chess.webp" alt="avatar" class="w-16 ml-2" />
+              </div>
+            </div>
+            <!-- column item -->
+            <div class="flex items-start px-4 py-4 mb-3 rounded-sm content">
+              <img src="./assets/images/avatar-nathan-peterson.webp" alt="avatar" class="w-10" />
+              <div class="flex flex-col ml-2">
+                <h6 class="text-sm font-bold hover:text-BlueEx transition-all ease-in cursor-pointer">Nathan Peterson
+                <span class="text-GrayishBlue text-sm font-normal ml-1">reacted to your recent post</span>
+                <span class="text-DarkGrayishBlue text-sm font-semibold"> 5 end-game strategies to increase your win rate</span>
+                <!-- <span class="inline-block w-[.1] h-[.1] p-1 ml-1 rounded-full bg-RedEx circle"></span> -->
+              </h6>
+                <p class="text-md text-GrayishBlue font-normal">2 weeks ago</p>
+              </div>
+            </div>
+            <!-- column item -->
+            <div class="flex items-start px-4 py-4 mb-3 rounded-sm content">
+              <img src="./assets/images/avatar-anna-kim.webp" alt="avatar" class="w-10" />
+              <div class="flex flex-col ml-2">
+                <h6 class="text-sm font-bold whitespace-nowrap hover:text-BlueEx transition-all ease-in cursor-pointer">Anna Kim
+                <span class="text-GrayishBlue text-sm font-normal ml-1">left the group</span>
+                <span class="text-BlueEx text-sm font-bold ml-1 cursor-pointer">Chess Club</span>
+                <!-- <span class="inline-block w-[.1] h-[.1] p-1 ml-1 rounded-full bg-RedEx circle"></span> -->
+              </h6>
+                <p class="text-md text-GrayishBlue font-normal">2 weeks ago</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+  
+  <!-- <div>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sandro</a>.
+  </div> -->
+
+  <script src="/script.js"></script>
+</body>
+</html>
